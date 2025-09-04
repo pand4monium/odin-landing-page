@@ -63,7 +63,7 @@ header {
     color: #E5E7EB;
 }
 
-button {
+.header-btn {
     background-color: #3882F6;
     font-size: 24px;
     color: #F9FAF8;
@@ -146,4 +146,56 @@ button {
     color: #1F2937;
     font-weight: 900;
     align-self: flex-end;
+}
+
+/* Call to action */
+.call-to-action {
+    background-color: #F9FAF8;
+    padding: 100px 210px;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cta-header {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.cta-main {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.cta-btn {
+    border: #F9FAF8 solid 4px;
+    border-radius: 5px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 0 40px;
+    height: 40px;
+    align-self: center;
+}
+
+footer {
+    padding: 40px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-around;
 }
